@@ -6,7 +6,7 @@ function Vehiculo(marca) {
     console.log("El vehiculo ha arrancado");
   };
   
-  
+
   
   function Coche(marca, modelo) {
       Vehiculo.call(this,marca); 
